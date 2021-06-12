@@ -22,14 +22,14 @@ translation_of: Web/JavaScript/Reference/Statements/switch
 
 <pre class="syntaxbox">switch (expressão) {
   case valor1:
-    //Instruções executadas quando o resultado da expressão for igual á valor1
+    //Instruções executadas quando o resultado da expressão for igual a valor1
     [break;]
   case valor2:
-    //Instruções executadas quando o resultado da expressão for igual á valor2
+    //Instruções executadas quando o resultado da expressão for igual a valor2
     [break;]
   ...
   case valueN:
-    //Instruções executadas quando o resultado da expressão for igual á valorN
+    //Instruções executadas quando o resultado da expressão for igual a valorN
     [break;]
   default:
     //Instruções executadas quando o valor da expressão é diferente de todos os cases
@@ -40,14 +40,14 @@ translation_of: Web/JavaScript/Reference/Statements/switch
  <dt><code>expressão</code></dt>
  <dd>Uma expressão que será comparada á cada cláusula <strong>case</strong>.</dd>
  <dt><code>case expressão</code></dt>
- <dd>Uma cláusula <strong>case</strong> que será comparada á expressão.</dd>
+ <dd>Uma cláusula <strong>case</strong> que será comparada a expressão.</dd>
 </dl>
 
 <h2 id="Description" name="Description">Descrição</h2>
 
 <p>Se a condição for correspondida, o programa executa as instruções asssociadas. Se múltiplos casos corresponderem o valor, o primeiro caso que corresponder é selecionado, mesmo se os casos não forem iguais entre si.</p>
 
-<p>O programa primeiro procura por um caso o qual a expressão avalie como tendo o mesmo valor que o input da expressão (usando a <a href="/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators">comparação de igualdade estrita</a>, <code>===) </code>transferindo assim o controle para a cláusula encontrada e em seguida execudando as instruções associadas. Caso nenhum caso seja correspondido, então o programa procura pela cláusula opicional <code>default</code>, que, se encontrado, tem o controle transferido à ele, executando suas instruções associadas. Se não ouver uma cláusula <code>default</code>, o programa continua a execução da instrução seguindo para o final do <code>switch</code>. Por convenção, a cláusula default é a última, mas não é algo obrigatório.</p>
+<p>O programa primeiro procura por um caso o qual a expressão avalie como tendo o mesmo valor que o input da expressão (usando a <a href="/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators">comparação de igualdade estrita</a>, <code>===) </code>transferindo assim o controle para a cláusula encontrada e em seguida execudando as instruções associadas. Caso nenhum caso seja correspondido, então o programa procura pela cláusula opicional <code>default</code>, que, se encontrado, tem o controle transferido à ele, executando suas instruções associadas. Se não houver uma cláusula <code>default</code>, o programa continua a execução da instrução seguindo para o final do <code>switch</code>. Por convenção, a cláusula default é a última, mas não é algo obrigatório.</p>
 
 <p>A instrução opcional <code><a href="/en-US/docs/Web/JavaScript/Reference/Statements/break" title="JavaScript/Reference/Statements/break">break</a></code> associada com cada <code>case</code> garante que o programa saia da condicional <code>switch</code> assim que a instrução correspondente for executada  e executa a instrução que segue logo após o switch. Caso <code>break</code> seja omitido, o programa continua a execução para a próxima instrução dentro de <code>switch</code>. </p>
 
@@ -134,8 +134,6 @@ switch (Animal) {
 
 <p>Esse é um exemplo de múltiplas operações squenciais usando a instrução <code>switch</code>, onde, dependendo do número inteiro, você poderá receber outputs diferentes. Isso mostra que você pode alterar a ordem que você insere as instruções de <code>case</code>, e isso não precisa ser uma sequência numérica. Em JavaScript, você pode até mesmo misturar definições de strings dentro desses <code>cases</code>. </p>
 
-<p>This is an example of a multiple-operation sequential switch statement, where, depending on the provided integer, you can receive different output. This shows you that it wil traverse in the order that you put the case statements, and it does not have to be numerically sequential. In JavaScript, you can even mix in definitions of strings into these case statements as well.</p>
-
 <pre class="brush: js">var foo = 1;
 var output = 'Output: ';
 switch (foo) {
@@ -160,7 +158,7 @@ switch (foo) {
         alert('Favor escolher um número de 0 à 6!');
 }</pre>
 
-<p>Output para esse exemplo:</p>
+<p>Saída para esse exemplo:</p>
 
 <table class="standard-table" style="height: 270px; width: 522px;">
  <tbody>
