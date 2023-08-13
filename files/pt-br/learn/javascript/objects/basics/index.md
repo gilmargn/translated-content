@@ -208,7 +208,7 @@ pessoa["olhos"];
 pessoa.despedida();
 ```
 
-Um aspecto útil de notação de colchetes é que ela pode ser usadada não apenas para setar valores dinamicamente, mas também nomes de membros. Vamos dizer que queremos que usuários possam armazenar tipos de valores personalizados em seus dados de 'pessoa', digitando o nome e o valor do membro em dois inputs de texto. Podemos obter esses valores dessa forma:
+Um aspecto útil de notação de colchetes é que ela pode ser usada não apenas para setar valores dinamicamente, mas também nomes de membros. Vamos dizer que queremos que usuários possam armazenar tipos de valores personalizados em seus dados de 'pessoa', digitando o nome e o valor do membro em dois inputs de texto. Podemos obter esses valores dessa forma:
 
 ```js
 var myDataName = nameInput.value;
